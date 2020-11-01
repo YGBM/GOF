@@ -15,6 +15,8 @@
     <module>observer_wiki_demo</module>
     <module>observer_util_observer</module>
     <module>strategy_demo01</module>
+    <module>strategy_wiki</module>
+    <module>command_demo01</module>
   </modules>
   
   <properties>
