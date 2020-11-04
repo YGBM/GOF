@@ -1,30 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-
+  <parent>
+    <groupId>com.fuzs</groupId>
+    <artifactId>observer_exp</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
   <groupId>com.fuzs</groupId>
-  <artifactId>observer_exp</artifactId>
+  <artifactId>chain_of_responsibility</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
-
-  <name>observer_exp</name>
+  <name>chain_of_responsibility</name>
   <url>http://maven.apache.org</url>
 
-  <modules>
-    <module>observer_event_design</module>
-    <module>observer_wiki_demo</module>
-    <module>observer_util_observer</module>
-    <module>strategy_demo01</module>
-    <module>strategy_wiki</module>
-    <module>command_demo01</module>
-    <module>chain_of_responsibility</module>
-    <module>chain_of_responsibility_wiki</module>
-    <module>state</module>
-    <module>state_1</module>
-    <module>state_2</module>
-    <module>state_3</module>
-  </modules>
-  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
@@ -32,6 +20,7 @@
     <maven.complier.target>1.8</maven.complier.target>
   </properties>
 
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -40,8 +29,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
-    <build>
+
+      <build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -53,5 +42,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
