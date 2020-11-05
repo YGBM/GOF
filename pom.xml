@@ -25,6 +25,7 @@
     <module>state_3</module>
     <module>mediator</module>
     <module>iterator</module>
+    <module>visitor</module>
   </modules>
   
   <properties>
