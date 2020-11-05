@@ -23,6 +23,8 @@
     <module>state_1</module>
     <module>state_2</module>
     <module>state_3</module>
+    <module>mediator</module>
+    <module>iterator</module>
   </modules>
   
   <properties>
