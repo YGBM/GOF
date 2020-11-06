@@ -29,4 +29,16 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+      <build>
+        <resources>
+              <resource>
+                  <directory>${project.basedir}/Photo</directory>
+                  <targetPath>Photo</targetPath>
+              <includes>
+                  <include>**/*</include>
+              </includes>
+              </resource>
+        </resources>
+      </build>
 </project>
