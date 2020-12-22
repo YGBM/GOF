@@ -27,6 +27,8 @@
     <module>iterator</module>
     <module>visitor</module>
     <module>memento</module>
+    <module>memento_1</module>
+    <module>chain_of_responsibility_approve</module>
   </modules>
   
   <properties>
@@ -37,6 +39,11 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.16</version>
+    </dependency>  
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
